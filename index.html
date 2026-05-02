@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Texa AI Image</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<canvas width="160" height="160" id="canvas"></canvas>
+		<div id="controls">
+			<button onclick="handleAsk()">Enter prompt</button>
+			<button onclick="handleRandom()">Random prompt</button>
+			<button onclick="handleMorf()">Morf (toggle)</button>
+			<button onclick="handleLoadWeights()">Load weights</button>
+		</div>
+		<div id="credits">
+			This project wouldn't have been possible without
+			<a href="https://scratch.mit.edu/projects/1306130950">this</a>
+			project on
+			<a href="https://scratch.mit.edu">Scratch</a>
+			by
+			<a href="https://scratch.mit.edu/users/Tate-1809">@Tate-1809</a>.
+		</div>
+		<script> var ctx; window.ctx = ctx = canvas.getContext("2d"); </script>
+		<script src="utils.js"></script>
+		<script src="script.js"></script>
+	</body>
+</html>
