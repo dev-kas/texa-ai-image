@@ -19,7 +19,7 @@ let b1 = [],
 
 async function fetchWeights() {
   try {
-    const response = await fetch("/weights.txt");
+    const response = await fetch("weights.txt");
     if (!response.ok) {
       throw new Error(`${response.status}: ${response.statusText}`);
     }
