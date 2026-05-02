@@ -1,3 +1,8 @@
+Check out the
+<a href="https://github.com/dev-kas/texa-ai-image/">live preview</a>
+
+---
+
 This project wouldn't have been possible without
 <a href="https://scratch.mit.edu/projects/1306130950">this</a>
 project on
